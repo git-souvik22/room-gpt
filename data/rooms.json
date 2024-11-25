@@ -1,0 +1,30 @@
+{
+    "rooms": [
+        {
+            "id": "1",
+            "agency": "BestStay Agency",
+            "images": ["images/room-1.jpg", "images/room-2.jpg"],
+            "type": "Double",
+            "rating": 4,
+            "beds": 2,
+            "bathrooms": 1,
+            "rate": "50 USD/person",
+            "location": "New York",
+            "mapUrl": "https://maps.google.com/...",
+            "description": "A cozy room in the heart of the city."
+        },
+        {
+            "id": "2",
+            "agency": "City View Rentals",
+            "images": ["images/room-3.jpg", "images/room-4.jpg"],
+            "type": "Suite",
+            "rating": 5,
+            "beds": 3,
+            "bathrooms": 2,
+            "rate": "100 USD/person",
+            "location": "Los Angeles",
+            "mapUrl": "https://maps.google.com/...",
+            "description": "Luxury suite with a great view of the city."
+        }
+    ]
+}
