@@ -1,0 +1,17 @@
+{
+    "rooms": [
+        {
+            "id": "1",
+            "agency": "BestStay Agency",
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdxfuXtcX5XVDFe4pOjslaMXFhCEL8BmL8_uVEPaThWsC_qhvJVRv4QaY1&s=10", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYiCvurEyabrs5rF_OApq4EkUrHzHE_N6Eco3IUDRvFLiyh5svQLZYxIE&s=10", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSkk86bKMJZRaRiy0C8_2DW4PKRYf2nvVssQ&usqp=CAU", "https://www.sampadacreations.com/images/customized-interior-design-solutions.jpg"],
+            "type": "Double",
+            "rating": 4,
+            "beds": 2,
+            "bathrooms": 1,
+            "rate": "50 USD/person",
+            "location": "New York",
+            "mapUrl": "https://maps.google.com/...",
+            "description": "A cozy room in the heart of the city."
+        }
+    ]
+}
