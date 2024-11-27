@@ -1,0 +1,77 @@
+/* General Layout */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.carousel-container {
+    width: 55%;
+    position: relative;
+    display: flex;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.carousel-slides {
+    display: flex;
+    transition: transform 1s ease-in-out;
+    height: 350px;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+
+.thumbnail-preview {
+    position: absolute;
+    top: 0;
+    right: -60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.thumbnail-preview img {
+    width: 50px;
+    height: 50px;
+    margin: 5px 0;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border 0.3s;
+}
+
+.thumbnail-preview img:hover, 
+.thumbnail-preview img.active {
+    border-color: #007bff;
+}
+
+/* Room Info Styling */
+.room-info {
+    width: 40%;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+iframe {
+    margin-top: 10px;
+    border: 0;
+}
