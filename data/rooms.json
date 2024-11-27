@@ -3,7 +3,7 @@
         {
             "id": "1",
             "agency": "BestStay Agency",
-            "images": ["../images/1.png", "../images/3.png", "../images/4.png", "../images/5.png"],
+            "images": ["images/1.png", "images/3.png", "images/4.png", "images/5.png"],
             "type": "Double",
             "rating": 4,
             "beds": 2,
