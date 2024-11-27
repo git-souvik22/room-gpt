@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const carouselSlides = document.querySelector('.carousel-slides');
     const thumbnailPreview = document.querySelector('.thumbnail-preview');
 
-    fetch('data/rooms.json')
+    fetch('../data/rooms.json')
         .then(response => response.json())
         .then(data => {
             const room = data.rooms.find(r => r.id === roomId);
