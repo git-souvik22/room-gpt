@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Details</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Image Carousel (55% width) -->
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-slides"></div>
+                <div class="thumbnail-preview"></div>
+            </div>
+        </div>
+
+        <!-- Room Details (40% width) -->
+        <div class="room-info">
+            <h2 id="agency-name">Agency Name</h2>
+            <p><span id="star-rating"></span> Stars</p>
+            <p><strong>Room Type:</strong> <span id="room-type"></span></p>
+            <p><strong>Rate/Person:</strong> <span id="room-rate"></span></p>
+            <p><strong>Beds:</strong> <span id="beds-count"></span></p>
+            <p><strong>Bathrooms:</strong> <span id="bathroom-count"></span></p>
+            <p><strong>Description:</strong> <span id="description"></span></p>
+            <iframe id="map-location" src="" width="100%" height="300"></iframe>
+        </div>
+    </div>
+    <script src="scripts/room-details.js"></script>
+</body>
+</html>
